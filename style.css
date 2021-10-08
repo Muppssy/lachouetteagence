@@ -554,7 +554,6 @@ a[data-lightbox]:hover::before {
     font-weight: 100;
     color: #fff;
     background: rgba(0,0,0,.6);
-    -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 
@@ -870,7 +869,7 @@ h4 {
     }
 }
 
-@media only screen and (min-width:1024px) and (max-width:1366px) and (-webkit-min-device-pixel-ratio:1.5) {
+@media only screen and (min-width:1024px) and (max-width:1366px) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -940,7 +939,6 @@ h4 {
 
     .site-navigation {
         position: inherit;
-        -ms-transform: none;
         transform: none;
     }
 
